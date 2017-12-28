@@ -15,195 +15,206 @@ from googletrans import Translator
 
 kr = KRIS.LINE()
 #kr.login(qr=True)
-kr.login(token='')#r
+kr.login(token='EoUTFOMZ9sx0UlnYqqO4.1URSVcJIcR9zzYAVPUCMva.FHHz6YOSh4IuOf4ILOPJclaT4Smcj5X8EvzTrTKt350=')#r
 kr.loginResult()
 
-print "╔════════════════════════════════════════════════════\n╠❂➣[KRIS BERHASIL LOGIN]\n╚════════════════════════════════════════════════════"
+print "LOGIN SUKSES"
 reload(sys)
 sys.setdefaultencoding('utf-8')
 
 helpmsg ="""
-╔═════════════
-║ ✰ tɛǟʍ ċʏɮɛʀ-ǟʀʍʏ ɮօt ✰
-╠═════════════
-║ Owner : Kris
-║ line://ti/p/~krissthea
-╠═════════════
-║╔════════════
-║╠❂➣google (text)
-║╠❂➣playstore (text)
-║╠❂➣instagram (username)
-║╠❂➣wikipedia (text)
-║╠❂➣idline (text)
-║╠❂➣time
-║╠❂➣image (text)
-║╠❂➣runtime
-║╠❂➣Restart
-║╠❂➣lirik (text)
-║╠❂➣nah (mention)
-║╠❂➣cctv on/off (Lurk)
-║╠❂➣toong (Lurker)
-║╠❂➣protect on/off
-║╠❂➣qr on/off
-║╠❂➣invite on/off
-║╠❂➣Cancel on/off
-║╠❂➣Simisimi:on/off
-║╠❂➣Read on/off
-║╠❂➣Getinfo @
-║╠❂➣Getcontact @
-║╠❂➣Cium @
-║╠❂➣speed
-║╠❂➣Friendlist
-║╠❂➣id@en
-║╠❂➣en@id
-║╠❂➣id@jp
-║╠❂➣keybot
-║╚════════════
-╚═════════════"""
+╔══════════════════
+║SELF STARBOT
+╚══════════════════
+╔══════════════════
+║YOUR COMMAND
+╚══════════════════
+╔══════════════════
+║􀜁􀇔Mask􏿿 ggl [Text]
+║􀜁􀇔Mask􏿿 ps [Text]
+║􀜁􀇔Mask􏿿 ig [Unsername Ig]
+║􀜁􀇔Mask􏿿 wiki [Text]
+║􀜁􀇔Mask􏿿 time
+║􀜁􀇔Mask􏿿 image (text)
+║􀜁􀇔Mask􏿿 runtime
+║􀜁􀇔Mask􏿿 Restart
+║􀜁􀇔Mask􏿿 lirik (text)
+║􀜁􀇔Mask􏿿 Tag (mention)
+║􀜁􀇔Mask􏿿 Sider on/off (Lurk)
+║􀜁􀇔Mask􏿿 Cek (Lurker)
+║􀜁􀇔Mask􏿿 protect on/off
+║􀜁􀇔Mask􏿿 qr on/off
+║􀜁􀇔Mask􏿿 invite on/off
+║􀜁􀇔Mask􏿿 Cancel on/off
+║􀜁􀇔Mask􏿿 Simisimi:on/off
+║􀜁􀇔Mask􏿿 Read on/off
+║􀜁􀇔Mask􏿿 Getinfo @
+║􀜁􀇔Mask􏿿 Getcontact @
+║􀜁􀇔Mask􏿿 Cium @
+║􀜁􀇔Mask􏿿 Friendlist
+║􀜁􀇔Mask􏿿 id-en
+║􀜁􀇔Mask􏿿 en-id
+║􀜁􀇔Mask􏿿 id-jp
+║􀜁􀇔Mask􏿿 keybot
+╚══════════════════
+╔══════════════════
+║TEAM STAR BOT
+╚══════════════════
+
+"""
 
 keymsg ="""
-╔═════════════
-║ ✰ tɛǟʍ ċʏɮɛʀ-ǟʀʍʏ ɮօt ✰
-╠═════════════
-║ Owner : Kris
-║ line://ti/p/~krissthea
-╠═════════════
-║╔════════════
-║╠❂➣keypro
-║╠❂➣keyself
-║╠❂➣keygrup
-║╠❂➣keyset
-║╠❂➣keytran
-║╠❂➣mode on/off
-║╚════════════
-╚═════════════"""
+╔══════════════════
+║SELF STARBOT
+╚══════════════════
+╔══════════════════
+║YOUR COMMAND
+╚══════════════════
+╔══════════════════
+║􀜁􀇔Mask􏿿 Sb1
+║􀜁􀇔Mask􏿿 Sb2
+║􀜁􀇔Mask􏿿 Sb3
+║􀜁􀇔Mask􏿿 Sb4
+║􀜁􀇔Mask􏿿 Sb5
+╚══════════════════
+╔══════════════════
+║TEAM STAR BOT
+╚══════════════════
+"""
 
 helppro ="""
-╔═════════════
-║ ✰ tɛǟʍ ċʏɮɛʀ-ǟʀʍʏ ɮօt ✰
-╠═════════════
-║ Owner : Kris
-║ line://ti/p/~krissthea
-╠═════════════
-║╔════════════
-║╠❂➣mode on/off
-║╠❂➣protect on/off
-║╠❂➣qr on/off
-║╠❂➣invite on/off
-║╠❂➣cancel on/off
-║╚════════════
-╚═════════════"""
+╔══════════════════
+║SELF STARBOT
+╚══════════════════
+╔══════════════════
+║YOUR COMMAND
+╚══════════════════
+╔══════════════════
+║􀜁􀇔Mask􏿿 Mode On/Off
+║􀜁􀇔Mask􏿿 Protect On\Off
+║􀜁􀇔Mask􏿿 Qr On\Off
+║􀜁􀇔Mask􏿿 Invite On\Off
+║􀜁􀇔Mask􏿿 Cancel On\Off
+╚══════════════════
+╔══════════════════
+║TEAM STAR BOT
+╚══════════════════
+"""
 
 helpself ="""
-╔═════════════
-║ ✰ tɛǟʍ ċʏɮɛʀ-ǟʀʍʏ ɮօt ✰
-╠═════════════
-║ Owner : Kris
-║ line://ti/p/~krissthea
-╠═════════════
-║╔════════════
-║╠❂➣Me
-║╠❂➣Myname:
-║╠❂➣Mybio:
-║╠❂➣Mypict
-║╠❂➣Mycover
-║╠❂➣My copy @
-║╠❂➣My backup
-║╠❂➣Getgroup image
-║╠❂➣Getmid @
-║╠❂➣Getprofile @
-║╠❂➣Getinfo @
-║╠❂➣Getname @
-║╠❂➣Getbio @
-║╠❂➣Getpict @
-║╠❂➣Getcover @
-║╠❂➣nah (Mention)
-║╠❂➣cctv on/off (Lurking)
-║╠❂➣intip/toong (Lurkers)
-║╠❂➣Micadd @
-║╠❂➣Micdel @
-║╠❂➣Mimic on/off
-║╠❂➣Miclist
-║╚════════════
-╚═════════════"""
+╔══════════════════
+║SELF STARBOT
+╚══════════════════
+╔══════════════════
+║YOUR COMMAND
+╚══════════════════
+╔══════════════════
+║􀜁􀇔Mask􏿿 Me
+║􀜁􀇔Mask􏿿 Myname:
+║􀜁􀇔Mask􏿿 Mybio:
+║􀜁􀇔Mask􏿿 Mypict
+║􀜁􀇔Mask􏿿 Mycover
+║􀜁􀇔Mask􏿿 Mycopy @
+║􀜁􀇔Mask􏿿 Mybackup
+║􀜁􀇔Mask􏿿 Getgroup image
+║􀜁􀇔Mask􏿿 Getmid
+║􀜁􀇔Mask􏿿 Getprofile @
+║􀜁􀇔Mask􏿿 Getinfo @
+║􀜁􀇔Mask􏿿 Getname @
+║􀜁􀇔Mask􏿿 Getbio @
+║􀜁􀇔Mask􏿿 Getpict @
+║􀜁􀇔Mask􏿿 Getcover @
+║􀜁􀇔Mask􏿿 Micadd @
+║􀜁􀇔Mask􏿿 Micdel @
+║􀜁􀇔Mask􏿿 Mimic on/off
+║􀜁􀇔Mask􏿿 Miclist
+╚══════════════════
+╔══════════════════
+║TEAM STAR BOT
+╚══════════════════
+"""
 
 helpset ="""
-╔═════════════
-║ ✰ tɛǟʍ ċʏɮɛʀ-ǟʀʍʏ ɮօt ✰
-╠═════════════
-║ Owner : Kris
-║ line://ti/p/~krissthea
-╠═════════════
-║╔════════════
-║╠❂➣contact on/off
-║╠❂➣autojoin on/off
-║╠❂➣auto leave on/off
-║╠❂➣autoadd on/off
-║╠❂➣like friend
-║╠❂➣link on
-║╠❂➣respon on/off
-║╠❂➣read on/off
-║╠❂➣simisimi on/off
-║╠❂➣Sambut on/off
-║╠❂➣Pergi on/off
-║╠❂➣Respontag on/off
-║╠❂➣Kicktag on/off
-║╚════════════
-╚═════════════"""
+╔══════════════════
+║SELF STARBOT
+╚══════════════════
+╔══════════════════
+║YOUR COMMAND
+╚══════════════════
+╔══════════════════
+║􀜁􀇔Mask􏿿 Contact on/off
+║􀜁􀇔Mask􏿿 Autojoin on/off
+║􀜁􀇔Mask􏿿 Auto leave on/off
+║􀜁􀇔Mask􏿿 Autoadd on/off
+║􀜁􀇔Mask􏿿 Like friend
+║􀜁􀇔Mask􏿿 Respon on/off
+║􀜁􀇔Mask􏿿 Read on/off
+║􀜁􀇔Mask􏿿 Welcome on/off
+║􀜁􀇔Mask􏿿 Respontag on/off
+║􀜁􀇔Mask􏿿 Kicktag on/off
+╚══════════════════
+╔══════════════════
+║TEAM STAR BOT
+╚══════════════════
+"""
 
 helpgrup ="""
-╔═════════════
-║ ✰ tɛǟʍ ċʏɮɛʀ-ǟʀʍʏ ɮօt ✰
-╠═════════════
-║ Owner : Kris
-║ line://ti/p/~krissthea
-╠═════════════
-║╔════════════
-║╠❂➣Link on
-║╠❂➣Url
-║╠❂➣Cancel
-║╠❂➣Gcreator
-║╠❂➣Kick @
-║╠❂➣Cium @
-║╠❂➣Gname:
-║╠❂➣Gbroadcast:
-║╠❂➣Cbroadcast:
-║╠❂➣Infogrup
-║╠❂➣Gruplist
-║╠❂➣Friendlist
-║╠❂➣Blacklist
-║╠❂➣Ban @
-║╠❂➣Unban @
-║╠❂➣Clearban
-║╠❂➣Banlist
-║╠❂➣Contact ban
-║╠❂➣Midban
-║╚════════════
-╚═════════════"""
+╔══════════════════
+║SELF STARBOT
+╚══════════════════
+╔══════════════════
+║YOUR COMMAND
+╚══════════════════
+╔══════════════════
+║􀜁􀇔Mask􏿿 Link on
+║􀜁􀇔Mask􏿿 Url
+║􀜁􀇔Mask􏿿 Cancel
+║􀜁􀇔Mask􏿿 Gcreator
+║􀜁􀇔Mask􏿿 Kick @
+║􀜁􀇔Mask􏿿 Gname:
+║􀜁􀇔Mask􏿿 Gbroadcast:
+║􀜁􀇔Mask􏿿 Cbroadcast:
+║􀜁􀇔Mask􏿿 Infogrup
+║􀜁􀇔Mask􏿿 Gruplist
+║􀜁􀇔Mask􏿿 Friendlist
+║􀜁􀇔Mask􏿿 Ban @
+║􀜁􀇔Mask􏿿 Unban @
+║􀜁􀇔Mask􏿿 Clearban
+║􀜁􀇔Mask􏿿 Banlist
+║􀜁􀇔Mask􏿿 Contact ban
+║􀜁􀇔Mask􏿿 Midban
+╚══════════════════
+╔══════════════════
+║TEAM STAR BOT
+╚══════════════════
+"""
 
 helptranslate ="""
-╔═════════════
-║ ✰ tɛǟʍ ċʏɮɛʀ-ǟʀʍʏ ɮօt ✰
-╠═════════════
-║ Owner : Kris
-║ line://ti/p/~krissthea
-╠═════════════
-║╔════════════
-║╠❂➣Id@en
-║╠❂➣En@id
-║╠❂➣Id@jp
-║╠❂➣Jp@id
-║╠❂➣Id@th
-║╠❂➣Th@id
-║╠❂➣Id@ar
-║╠❂➣Ar@id
-║╠❂➣Id@ko
-║╠❂➣Ko@id
-║╠❂➣Say-id
-║╠❂➣Say-en
-║╠❂➣Say-jp
-║╚════════════
-╚═════════════"""
+╔══════════════════
+║SELF STARBOT
+╚══════════════════
+╔══════════════════
+║YOUR COMMAND
+╚══════════════════
+╔══════════════════
+║􀜁􀇔Mask􏿿 Id-en
+║􀜁􀇔Mask􏿿 En-id
+║􀜁􀇔Mask􏿿 Id-jp
+║􀜁􀇔Mask􏿿 Jp-id
+║􀜁􀇔Mask􏿿 Id-th
+║􀜁􀇔Mask􏿿 Th-id
+║􀜁􀇔Mask􏿿 Id-ar
+║􀜁􀇔Mask􏿿 Ar-id
+║􀜁􀇔Mask􏿿 Id-ko
+║􀜁􀇔Mask􏿿 Ko-id
+║􀜁􀇔Mask􏿿 Say-id
+║􀜁􀇔Mask􏿿 Say-en
+║􀜁􀇔Mask􏿿 Say-jp
+╚══════════════════
+╔══════════════════
+║TEAM STAR BOT
+╚══════════════════
+"""
 
 KAC=[kr]
 mid = kr.getProfile().mid
@@ -226,9 +237,9 @@ wait = {
     'leaveRoom':True,
     'timeline':False,
     'autoAdd':True,
-    'message':"""Thx for add""",
+    'message':"""THANKS FOR ADD ME\nOPEN PEMBUATAN BOT PROTECTED\nMINAT PM ID LINE line.me/ti/p/~ebisuindo""",
     "lang":"JP",
-    "comment":"👉ąµţ๏ℓɨЌ€ By C-A_Bot😊\n\n☆º°˚˚✰ tɛǟʍ ċʏɮɛʀ-ǟʀʍʏ ɮօt ✰º°˚˚☆（＾ω＾）\nąµţ๏ℓɨЌ€ by Kris ⭐👈 »»» http://line.me/ti/p/~krissthea «««",
+    "comment":"AUTO LIKE BY STARBOT",
     "commentOn":False,
     "commentBlack":{},
     "wblack":False,
@@ -543,7 +554,7 @@ def bot(op):
                  if wait["kickMention"] == True:
                      contact = kr.getContact(msg.from_)
                      cName = contact.displayName
-                     balas = ["Dont Tag Me!! Im Busy, ",cName + " Ngapain Ngetag?, ",cName + " Nggak Usah Tag-Tag! Kalo Penting Langsung Pc Aja, ", "-_-, ","Kris lagi off, ", cName + " Kenapa Tag saya?, ","SPAM PC aja, " + cName, "Jangan Suka Tag gua, " + cName, "Kamu siapa, " + cName + "?", "Ada Perlu apa, " + cName + "?","Tag doang tidak perlu., "]
+                     balas = ["Dont Tag Me!! Im Busy, ",cName + " Ngapain Ngetag?, ",cName + " Nggak Usah Tag-Tag! Kalo Penting Langsung Pc Aja, ", "-_-, ","Ang ker off, ", cName + " Kenapa Tag saya?, ","SPAM PC aja, " + cName, "Jangan Suka Tag gua, " + cName, "Kamu siapa, " + cName + "?", "Ada Perlu apa, " + cName + "?","Tag doang tidak perlu., "]
                      ret_ = "[Auto Respond] " + random.choice(balas)
                      name = re.findall(r'@(\w+)', msg.text)
                      mention = ast.literal_eval(msg.contentMetadata['MENTION'])
@@ -691,34 +702,34 @@ def bot(op):
                     kr.sendText(msg.to,keymsg)
                 else:
                     kr.sendText(msg.to,keymsg)
-            elif msg.text.lower() == 'keypro':
+            elif msg.text.lower() == 'Sb1':
                 if wait["lang"] == "JP":
                     kr.sendText(msg.to,helppro)
                 else:
                     kr.sendText(msg.to,helppro)
-            elif msg.text.lower() == 'keyself':
+            elif msg.text.lower() == 'Sb2':
                 if wait["lang"] == "JP":
                     kr.sendText(msg.to,helpself)
                 else:
                     kr.sendText(msg.to,helpself)
-            elif msg.text.lower() == 'keygrup':
+            elif msg.text.lower() == 'Sb3':
                 if wait["lang"] == "JP":
                     kr.sendText(msg.to,helpgrup)
                 else:
                     kr.sendText(msg.to,helpgrup)
-            elif msg.text.lower() == 'keyset':
+            elif msg.text.lower() == 'Sb4':
                 if wait["lang"] == "JP":
                     kr.sendText(msg.to,helpset)
                 else:
                     kr.sendText(msg.to,helpset)
-            elif msg.text.lower() == 'keytran':
+            elif msg.text.lower() == 'Sb5':
                 if wait["lang"] == "JP":
                     kr.sendText(msg.to,helptranslate)
                 else:
                     kr.sendText(msg.to,helptranslate)
             elif msg.text in ["Sp","Speed","speed"]:
                 start = time.time()
-                kr.sendText(msg.to, "❂➣Proses.....")
+                kr.sendText(msg.to, "「Prosess」\n「Speedbot」")
                 elapsed_time = time.time() - start
                 kr.sendText(msg.to, "%sseconds" % (elapsed_time))
             elif msg.text.lower() == 'crash':
@@ -741,173 +752,173 @@ def bot(op):
             elif msg.text.lower() == 'mode on':
                 if wait["protect"] == True:
                     if wait["lang"] == "JP":
-                        kr.sendText(msg.to,"Protecion Already On")
+                        kr.sendText(msg.to,"「Prosess」\n「Type:Protection」\n「Status:Protection」")
                     else:
-                        kr.sendText(msg.to,"Protecion Already On")
+                        kr.sendText(msg.to,"「Prosess」\n「Type:Protection」\n「Status:Protection」")
                 else:
                     wait["protect"] = True
                     if wait["lang"] == "JP":
-                        kr.sendText(msg.to,"Protecion Already On")
+                        kr.sendText(msg.to,"「Prosess」\n「Type:Protection」\n「Status:Protection」")
                     else:
-                        kr.sendText(msg.to,"Protecion Already On")
+                        kr.sendText(msg.to,"「Prosess」\n「Type:Protection」\n「Status:Protection」")
                 if wait["linkprotect"] == True:
                     if wait["lang"] == "JP":
-                        kr.sendText(msg.to,"Protection Qr already On")
+                        kr.sendText(msg.to,"「Prosess」\n「Type:Protection Qr」\n「Status:Protection Qr Aktif」")
                     else:
-                        kr.sendText(msg.to,"Protection Qr already On")
+                        kr.sendText(msg.to,"「Prosess」\n「Type:Protection Qr」\n「Status:Protection Qr Aktif」")
                 else:
                     wait["linkprotect"] = True
                     if wait["lang"] == "JP":
-                        kr.sendText(msg.to,"Protection Qr already On")
+                        kr.sendText(msg.to,"「Prosess」\n「Type:Protection Qr」\n「Status:Protection Qr Aktif」")
                     else:
-                        kr.sendText(msg.to,"Protection Qr already On")
+                        kr.sendText(msg.to,"「Prosess」\n「Type:Protection Qr」\n「Status:Protection Qr Aktif」")
                 if wait["inviteprotect"] == True:
                     if wait["lang"] == "JP":
-                        kr.sendText(msg.to,"Protection Invite already On")
+                        kr.sendText(msg.to,"「Prosess」\n「Type:Protection Invite」\n「Status:Protection Invite Aktif」")
                     else:
-                        kr.sendText(msg.to,"Protection Invite already On")
+                        kr.sendText(msg.to,"「Prosess」\n「Type:Protection Invite」\n「Status:Protection Invite Aktif」")
                 else:
                     wait["inviteprotect"] = True
                     if wait["lang"] == "JP":
-                        kr.sendText(msg.to,"ρяσтє¢тισи ιиνιтє ѕєт тσ σи")
+                        kr.sendText(msg.to,"「Prosess」\n「Type:Protection Invite」\n「Status:Protection Invite Aktif」")
                     else:
-                        kr.sendText(msg.to,"ρяσтє¢тισи ιиνιтє αℓяєα∂у σи")
+                        kr.sendText(msg.to,"「Prosess」\n「Type:Protection Invite」\n「Status:Protection Invite Aktif」")
                 if wait["cancelprotect"] == True:
                     if wait["lang"] == "JP":
-                        kr.sendText(msg.to,"¢αи¢єℓ ρяσтє¢тισи ѕєт тσ σи")
+                        kr.sendText(msg.to,"「Prosess」\n「Type:Protection Cancel」\n「Status:Protection Cancel Aktif」")
                     else:
-                        kr.sendText(msg.to,"¢αи¢єℓ ρяσтє¢тισи αℓяєα∂у σи")
+                        kr.sendText(msg.to,"「Prosess」\n「Type:Protection Cancel」\n「Status:Protection Cancel Aktif」")
                 else:
                     wait["cancelprotect"] = True
                     if wait["lang"] == "JP":
-                        kr.sendText(msg.to,"¢αи¢єℓ ρяσтє¢тισи ѕєт тσ σи")
+                        kr.sendText(msg.to,"「Prosess」\n「Type:Protection Cancel」\n「Status:Protection Cancel Aktif」")
                     else:
-                        kr.sendText(msg.to,"¢αи¢єℓ ρяσтє¢тισи αℓяєα∂у σи")
+                        kr.sendText(msg.to,"「Prosess」\n「Type:Protection Cancel」\n「Status:Protection Cancel Aktif」")
 #======================== FOR COMMAND MODE OFF STARTING ==========================#
             elif msg.text.lower() == 'mode off':
                 if wait["protect"] == False:
                     if wait["lang"] == "JP":
-                        kr.sendText(msg.to,"Protection already Off")
+                        kr.sendText(msg.to,"「Prosess」\n「Type:Protection」\n「Status:Protection Close」")
                     else:
-                        kr.sendText(msg.to,"Protection already Off")
+                        kr.sendText(msg.to,"「Prosess」\n「Type:Protection」\n「Status:Protection Close」")
                 else:
                     wait["protect"] = False
                     if wait["lang"] == "JP":
-                        kr.sendText(msg.to,"ρяσтє¢тισи ѕєт тσ σff")
+                        kr.sendText(msg.to,"「Prosess」\n「Type:Protection」\n「Status:Protection Close」")
                     else:
-                        kr.sendText(msg.to,"ρяσтє¢тισи αℓяєα∂у σff")
+                        kr.sendText(msg.to,"「Prosess」\n「Type:Protection」\n「Status:Protection Close」")
                 if wait["linkprotect"] == False:
                     if wait["lang"] == "JP":
-                        kr.sendText(msg.to,"Protection Qr already off")
+                        kr.sendText(msg.to,"「Prosess」\n「Type:Protection Qr」\n「Status:Protection Qr Close」")
                     else:
-                        kr.sendText(msg.to,"Protection Qr already off")
+                        kr.sendText(msg.to,"「Prosess」\n「Type:Protection Qr」\n「Status:Protection Qr Close」")
                 else:
                     wait["linkprotect"] = False
                     if wait["lang"] == "JP":
-                        kr.sendText(msg.to,"Protection Qr already Off")
+                        kr.sendText(msg.to,"「Prosess」\n「Type:Protection Qr」\n「Status:Protection Qr Close」")
                     else:
-                        kr.sendText(msg.to,"Protection Qr already Off")
+                        kr.sendText(msg.to,"「Prosess」\n「Type:Protection Qr」\n「Status:Protection Qr Close」")
                 if wait["inviteprotect"] == False:
                     if wait["lang"] == "JP":
-                        kr.sendText(msg.to,"Protection Invite already Off")
+                        kr.sendText(msg.to,"「Prosess」\n「Type:Protection Invite」\n「Status:Protection Invite Close」")
                     else:
-                        kr.sendText(msg.to,"Protection Invite already Off")
+                        kr.sendText(msg.to,"「Prosess」\n「Type:Protection Invite」\n「Status:Protection Invite Close」")
                 else:
                     wait["inviteprotect"] = False
                     if wait["lang"] == "JP":
-                        kr.sendText(msg.to,"Protection Invite already Off")
+                        kr.sendText(msg.to,"「Prosess」\n「Type:Protection Invite」\n「Status:Protection Invite Close」")
                     else:
-                        kr.sendText(msg.to,"Protection Invite already Off")
+                        kr.sendText(msg.to,"「Prosess」\n「Type:Protection Invite」\n「Status:Protection Invite Close」")
                 if wait["cancelprotect"] == False:
                     if wait["lang"] == "JP":
-                        kr.sendText(msg.to,"Protection Cancel already Off")
+                        kr.sendText(msg.to,"「Prosess」\n「Type:Protection Cancel」\n「Status:Protection Cancel Close」")
                     else:
-                        kr.sendText(msg.to,"Protection Cancel already Off")
+                        kr.sendText(msg.to,"「Prosess」\n「Type:Protection Cancel」\n「Status:Protection Cancel Close」")
                 else:
                     wait["cancelprotect"] = False
                     if wait["lang"] == "JP":
-                        kr.sendText(msg.to,"Protection Cancel already Off")
+                        kr.sendText(msg.to,"「Prosess」\n「Type:Protection Cancel」\n「Status:Protection Cancel Close」")
                     else:
-                        kr.sendText(msg.to,"Protection Cancel already Off")
+                        kr.sendText(msg.to,"「Prosess」\n「Type:Protection Cancel」\n「Status:Protection Cancel Close」")
 #========================== FOR COMMAND BOT STARTING =============================#
             elif msg.text.lower() == 'contact on':
                 if wait["contact"] == True:
                     if wait["lang"] == "JP":
-                        kr.sendText(msg.to,"ɕσηϯαɕϯ ςεϯ ϯσ ση")
+                        kr.sendText(msg.to,"「Prosess」\n「Type:Contact」\n「Status:Contact Aktif」")
                     else:
-                        kr.sendText(msg.to,"ɕσηϯαɕϯ ςεϯ ϯσ ση")
+                        kr.sendText(msg.to,"「Prosess」\n「Type:Contact」\n「Status:Contact Aktif」")
                 else:
                     wait["contact"] = True
                     if wait["lang"] == "JP":
-                        kr.sendText(msg.to,"ɕσηϯαɕϯ ςεϯ ϯσ ση")
+                        kr.sendText(msg.to,"「Prosess」\n「Type:Contact」\n「Status:Contact Aktif」")
                     else:
-                        kr.sendText(msg.to,"ɕσηϯαɕϯ ςεϯ ϯσ ση")
+                        kr.sendText(msg.to,"「Prosess」\n「Type:Contact」\n「Status:Contact Aktif」")
             elif msg.text.lower() == 'contact off':
                 if wait["contact"] == False:
                     if wait["lang"] == "JP":
-                        kr.sendText(msg.to,"ɕσηϯαɕϯ ςεϯ ϯσ σƒƒ")
+                        kr.sendText(msg.to,"「Prosess」\n「Type:Contact」\n「Status:Contact Close」")
                     else:
-                        kr.sendText(msg.to,"ɕσηϯαɕϯ αʆɾεαδψ σƒƒ")
+                        kr.sendText(msg.to,"「Prosess」\n「Type:Contact」\n「Status:Contact Close」")
                 else:
                     wait["contact"] = False
                     if wait["lang"] == "JP":
-                        kr.sendText(msg.to,"ɕσηϯαɕϯ ςεϯ ϯσ σƒƒ")
+                        kr.sendText(msg.to,"「Prosess」\n「Type:Contact」\n「Status:Contact Close」")
                     else:
-                        kr.sendText(msg.to,"ɕσηϯαɕϯ αʆɾεαδψ σƒƒ")
+                        kr.sendText(msg.to,"「Prosess」\n「Type:Contact」\n「Status:Contact Close」")
             elif msg.text.lower() == 'protect on':
                 if wait["protect"] == True:
                     if wait["lang"] == "JP":
-                        kr.sendText(msg.to,"Protecion Already On")
+                        kr.sendText(msg.to,"「Prosess」\n「Type:Protection」\n「Status:Protection Aktif」")
                     else:
-                        kr.sendText(msg.to,"Protecion Already On")
+                        kr.sendText(msg.to,"「Prosess」\n「Type:Protection」\n「Status:Protection Aktif」")
                 else:
                     wait["protect"] = True
                     if wait["lang"] == "JP":
-                        kr.sendText(msg.to,"Protecion Already On")
+                        kr.sendText(msg.to,"「Prosess」\n「Type:Protection」\n「Status:Protection Aktif」")
                     else:
-                        kr.sendText(msg.to,"Protecion Already On")
+                        kr.sendText(msg.to,"「Prosess」\n「Type:Protection」\n「Status:Protection Aktif」")
             elif msg.text.lower() == 'qr on':
                 if wait["linkprotect"] == True:
                     if wait["lang"] == "JP":
-                        kr.sendText(msg.to,"Protection Qr already On")
+                        kr.sendText(msg.to,"「Prosess」\n「Type:Protection Qr」\n「Status:Protection Qr Aktif」")
                     else:
-                        kr.sendText(msg.to,"Protection Qr already On")
+                        kr.sendText(msg.to,"「Prosess」\n「Type:Protection Qr」\n「Status:Protection Qr Aktif」")
                 else:
                     wait["linkprotect"] = True
                     if wait["lang"] == "JP":
-                        kr.sendText(msg.to,"Protection Qr already On")
+                        kr.sendText(msg.to,"「Prosess」\n「Type:Protection Qr」\n「Status:Protection Qr Aktif」")
                     else:
-                        kr.sendText(msg.to,"Protection Qr already On")
+                        kr.sendText(msg.to,"「Prosess」\n「Type:Protection Qr」\n「Status:Protection Qr Aktif」")
             elif msg.text.lower() == 'invite on':
                 if wait["inviteprotect"] == True:
                     if wait["lang"] == "JP":
-                        kr.sendText(msg.to,"Protection Invite already On")
+                        kr.sendText(msg.to,"「Prosess」\n「Type:Protection Invite」\n「Status:Protection Invite Aktif」")
                     else:
-                        kr.sendText(msg.to,"Protection Invite already On")
+                        kr.sendText(msg.to,"「Prosess」\n「Type:Protection Invite」\n「Status:Protection Invite Aktif」")
                 else:
                     wait["inviteprotect"] = True
                     if wait["lang"] == "JP":
-                        kr.sendText(msg.to,"ρяσтє¢тισи ιиνιтє ѕєт тσ σи")
+                        kr.sendText(msg.to,"「Prosess」\n「Type:Protection Invite」\n「Status:Protection Invite Aktif」")
                     else:
-                        kr.sendText(msg.to,"ρяσтє¢тισи ιиνιтє αℓяєα∂у σи")
+                        kr.sendText(msg.to,"「Prosess」\n「Type:Protection Invite」\n「Status:Protection Invite Aktif」")
             elif msg.text.lower() == 'cancel on':
                 if wait["cancelprotect"] == True:
                     if wait["lang"] == "JP":
-                        kr.sendText(msg.to,"¢αи¢єℓ ρяσтє¢тισи ѕєт тσ σи")
+                        kr.sendText(msg.to,"「Prosess」\n「Type:Protection Cancel」\n「Status:Protection Cancel Aktif」")
                     else:
-                        kr.sendText(msg.to,"¢αи¢єℓ ρяσтє¢тισи αℓяєα∂у σи")
+                        kr.sendText(msg.to,"「Prosess」\n「Type:Protection Cancel」\n「Status:Protection Cancel Aktif」")
                 else:
                     wait["cancelprotect"] = True
                     if wait["lang"] == "JP":
-                        kr.sendText(msg.to,"¢αи¢єℓ ρяσтє¢тισи ѕєт тσ σи")
+                        kr.sendText(msg.to,"「Prosess」\n「Type:Protection Cancel」\n「Status:Protection Cancel Aktif」")
                     else:
-                        kr.sendText(msg.to,"¢αи¢єℓ ρяσтє¢тισи αℓяєα∂у σи")
+                        kr.sendText(msg.to,"「Prosess」\n「Type:Protection Cancel」\n「Status:Protection Cancel Aktif」")
             elif msg.text.lower() == 'autojoin on':
                 if wait["autoJoin"] == True:
                     if wait["lang"] == "JP":
-                        kr.sendText(msg.to,"αυтσʝσιи ѕєт тσ σи")
+                        kr.sendText(msg.to,"「Prosess」\n「Type:Auto Join」\n「Status:Auto Join Aktif」")
                     else:
-                        kr.sendText(msg.to,"αυтσʝσιи αℓяєα∂у σи")
+                        kr.sendText(msg.to,"「Prosess」\n「Type:Auto Join」\n「Status:Auto Join Aktif」")
                 else:
                     wait["autoJoin"] = True
                     if wait["lang"] == "JP":
@@ -917,9 +928,9 @@ def bot(op):
             elif msg.text.lower() == 'autojoin off':
                 if wait["autoJoin"] == False:
                     if wait["lang"] == "JP":
-                        kr.sendText(msg.to,"αυтσʝσιи ѕєт тσ σff")
+                        kr.sendText(msg.to,"「Prosess」\n「Type:Auto Join」\n「Status:Auto Join Close」")
                     else:
-                        kr.sendText(msg.to,"αυтσʝσιи αℓяєα∂у σff")
+                        kr.sendText(msg.to,"「Prosess」\n「Type:Auto Join」\n「Status:Auto Join Close」")
                 else:
                     wait["autoJoin"] = False
                     if wait["lang"] == "JP":
@@ -929,9 +940,9 @@ def bot(op):
             elif msg.text.lower() == 'protect off':
                 if wait["protect"] == False:
                     if wait["lang"] == "JP":
-                        kr.sendText(msg.to,"Protection already Off")
+                        kr.sendText(msg.to,"「Prosess」\n「Type:Protection」\n「Status:Protection Close」")
                     else:
-                        kr.sendText(msg.to,"Protection already Off")
+                        kr.sendText(msg.to,"「Prosess」\n「Type:Protection」\n「Status:Protection Close」")
                 else:
                     wait["protect"] = False
                     if wait["lang"] == "JP":
@@ -941,21 +952,21 @@ def bot(op):
             elif msg.text.lower() == 'qr off':
                 if wait["linkprotect"] == False:
                     if wait["lang"] == "JP":
-                        kr.sendText(msg.to,"Protection Qr already off")
+                        kr.sendText(msg.to,"「Prosess」\n「Type:Protection Qr」\n「Status:Protection Qr Close」")
                     else:
-                        kr.sendText(msg.to,"Protection Qr already off")
+                        kr.sendText(msg.to,"「Prosess」\n「Type:Protection Qr」\n「Status:Protection Qr Close」")
                 else:
                     wait["linkprotect"] = False
                     if wait["lang"] == "JP":
-                        kr.sendText(msg.to,"Protection Qr already Off")
+                        kr.sendText(msg.to,"「Prosess」\n「Type:Protection Qr」\n「Status:Protection Qr Close」")
                     else:
                         kr.sendText(msg.to,"Protection Qr already Off")
             elif msg.text.lower() == 'invit off':
                 if wait["inviteprotect"] == False:
                     if wait["lang"] == "JP":
-                        kr.sendText(msg.to,"Protection Invite already Off")
+                        kr.sendText(msg.to,"「Prosess」\n「Type:Protection Invite」\n「Status:Protection Invite Close」")
                     else:
-                        kr.sendText(msg.to,"Protection Invite already Off")
+                        kr.sendText(msg.to,"「Prosess」\n「Type:Protection Invite」\n「Status:Protection Invite Close」")
                 else:
                     wait["inviteprotect"] = False
                     if wait["lang"] == "JP":
@@ -965,9 +976,9 @@ def bot(op):
             elif msg.text.lower() == 'cancel off':
                 if wait["cancelprotect"] == False:
                     if wait["lang"] == "JP":
-                        kr.sendText(msg.to,"Protection Cancel already Off")
+                        kr.sendText(msg.to,"「Prosess」\n「Type:Protection Cancel」\n「Status:Protection Cancel Close」")
                     else:
-                        kr.sendText(msg.to,"Protection Cancel already Off")
+                        kr.sendText(msg.to,"「Prosess」\n「Type:Protection Cancel」\n「Status:Protection Cancel Close」")
                 else:
                     wait["cancelprotect"] = False
                     if wait["lang"] == "JP":
@@ -1045,33 +1056,33 @@ def bot(op):
                         kr.sendText(msg.to,"Share already off")
             elif msg.text.lower() == 'status':
                 md = """╔═════════════\n"""
-                if wait["contact"] == True: md+="╠❂➣Contact:on [✅]\n"
-                else: md+="╠❂➣Contact:off [❌]\n"
-                if wait["autoJoin"] == True: md+="╠❂➣Auto Join:on [✅]\n"
-                else: md +="╠❂➣Auto Join:off [❌]\n"
-                if wait["autoCancel"]["on"] == True:md+="╠❂➣Auto cancel:" + str(wait["autoCancel"]["members"]) + "[✅]\n"
-                else: md+= "╠❂➣Group cancel:off [❌]\n"
-                if wait["leaveRoom"] == True: md+="╠❂➣Auto leave:on [✅]\n"
-                else: md+="╠❂➣Auto leave:off [❌]\n"
-                if wait["timeline"] == True: md+="╠❂➣Share:on [✅]\n"
-                else:md+="╠❂➣Share:off [❌]\n"
-                if wait["autoAdd"] == True: md+="╠❂➣Auto add:on [✅]\n"
-                else:md+="╠❂➣Auto add:off [❌]\n"
-                if wait["protect"] == True: md+="╠❂➣Protect:on [✅]\n"
-                else:md+="╠❂➣Protect:off [❌]\n"
-                if wait["linkprotect"] == True: md+="╠❂➣Link Protect:on [✅]\n"
-                else:md+="╠❂➣Link Protect:off [❌]\n"
-                if wait["inviteprotect"] == True: md+="╠❂➣Invitation Protect:on [✅]\n"
-                else:md+="╠❂➣Invitation Protect:off [❌]\n"
-                if wait["cancelprotect"] == True: md+="╠❂➣Cancel Protect:on [✅]\n"
-                else:md+="╠❂➣Cancel Protect:off [❌]\n╚═════════════"
+                if wait["contact"] == True: md+="╠􀜁􀇔Mask􏿿Contact:on [✅]\n"
+                else: md+="╠􀜁􀇔Mask􏿿Contact:off [❌]\n"
+                if wait["autoJoin"] == True: md+="╠􀜁􀇔Mask􏿿Auto Join:on [✅]\n"
+                else: md +="╠􀜁􀇔Mask􏿿Auto Join:off [❌]\n"
+                if wait["autoCancel"]["on"] == True:md+="╠􀜁􀇔Mask􏿿Auto cancel:" + str(wait["autoCancel"]["members"]) + "[✅]\n"
+                else: md+= "╠􀜁􀇔Mask􏿿Group cancel:off [❌]\n"
+                if wait["leaveRoom"] == True: md+="╠􀜁􀇔Mask􏿿Auto leave:on [✅]\n"
+                else: md+="╠􀜁􀇔Mask􏿿Auto leave:off [❌]\n"
+                if wait["timeline"] == True: md+="╠􀜁􀇔Mask􏿿Share:on [✅]\n"
+                else:md+="╠􀜁􀇔Mask􏿿Share:off [❌]\n"
+                if wait["autoAdd"] == True: md+="╠􀜁􀇔Mask􏿿Auto add:on [✅]\n"
+                else:md+="╠􀜁􀇔Mask􏿿Auto add:off [❌]\n"
+                if wait["protect"] == True: md+="╠􀜁􀇔Mask􏿿Protect:on [✅]\n"
+                else:md+="╠􀜁􀇔Mask􏿿Protect:off [❌]\n"
+                if wait["linkprotect"] == True: md+="╠􀜁􀇔Mask􏿿Link Protect:on [✅]\n"
+                else:md+="╠􀜁􀇔Mask􏿿Link Protect:off [❌]\n"
+                if wait["inviteprotect"] == True: md+="╠􀜁􀇔Mask􏿿Invitation Protect:on [✅]\n"
+                else:md+="╠􀜁􀇔Mask􏿿Invitation Protect:off [❌]\n"
+                if wait["cancelprotect"] == True: md+="╠􀜁􀇔Mask􏿿Cancel Protect:on [✅]\n"
+                else:md+="╠􀜁􀇔Mask􏿿Cancel Protect:off [❌]\n╚═════════════"
                 kr.sendText(msg.to,md)
                 msg.contentType = 13
-                msg.contentMetadata = {'mid': "u31ef22df7f538df1d74dc7f756ef1a32"}
+                msg.contentMetadata = {'mid': "uc77fd25b59f6e563d84f1334f3fed10b"}
                 kr.sendMessage(msg)
             elif cms(msg.text,["creator","Creator"]):
                 msg.contentType = 13
-                msg.contentMetadata = {'mid': "u31ef22df7f538df1d74dc7f756ef1a32"}
+                msg.contentMetadata = {'mid': "uc77fd25b59f6e563d84f1334f3fed10b"}
                 kr.sendMessage(msg)
                 kr.sendText(msg.to,'❂➣ Creator yang manis kalem  􀜁􀄯􏿿')
             elif msg.text.lower() == 'autoadd on':
